@@ -1,0 +1,13 @@
+1. 
+Single-threaded version averages between 0.187 - 0.203 seconds to run
+
+2. 
+Multi-threaded version averages between 0.156 - 0.187 seconds to run
+
+3. 
+On average, the multi-threaded program runs faster, as expected.
+
+4/5. 
+Using more than 2 threads doesn't seem to make the program any faster. It actually appears to have heightened the average.
+As I make the number of elements lower, the timings seem to converge and the single-threaded approach is sometimes even faster.
+I assume these observations can be explained by the added resource cost of creating additional threads. 
